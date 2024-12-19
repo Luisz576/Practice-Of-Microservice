@@ -1,0 +1,14 @@
+### healthy
+GET http://localhost:5000/healthy
+
+### create new category
+POST http://localhost:5000/categories
+Content-Type: application/json
+
+{
+	"name": "Golang"
+}
+
+### get all categories
+GET http://localhost:5000/categories
+Content-Type: application/json

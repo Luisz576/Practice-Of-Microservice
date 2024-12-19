@@ -1,6 +1,9 @@
 package main
 
 import (
+	"fmt"
+	"go-categories-microservice/config"
+
 	"github.com/gin-gonic/gin"
 )
 
@@ -15,5 +18,5 @@ func main() {
 
 	CategoryRoutes(router)
 
-	router.Run(":8000")
+	router.Run(fmt.Sprintf(":%d", config.API_PORT))
 }
