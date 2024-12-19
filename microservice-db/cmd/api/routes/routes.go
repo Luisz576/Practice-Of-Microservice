@@ -1,4 +1,4 @@
-package main
+package routes
 
 import (
 	"go-categories-microservice/cmd/api/controller"

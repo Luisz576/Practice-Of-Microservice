@@ -1,0 +1,9 @@
+version: '3.9'
+
+services:
+  microservice-db:
+   container_name: microservice-db
+   image: test-microservice-db
+   mem_limit: 2048m
+   ports:
+     - "8000:80"
