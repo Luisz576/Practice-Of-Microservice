@@ -1,7 +1,7 @@
 package routes
 
 import (
-	"go-categories-microservice/cmd/api/controller"
+	"go-categories-microservice/internal/controller"
 	"go-categories-microservice/internal/repository"
 
 	"github.com/gin-gonic/gin"

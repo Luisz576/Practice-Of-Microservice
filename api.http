@@ -1,8 +1,8 @@
 ### healthy
-GET http://localhost:80/healthy
+GET http://localhost:8000/healthy
 
 ### create new category
-POST http://localhost:80/categories
+POST http://localhost:8000/categories
 Content-Type: application/json
 
 {
@@ -10,5 +10,5 @@ Content-Type: application/json
 }
 
 ### get all categories
-GET http://localhost:80/categories
+GET http://localhost:8000/categories
 Content-Type: application/json

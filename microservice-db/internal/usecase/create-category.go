@@ -1,8 +1,8 @@
 package usecase
 
 import (
-	"go-categories-microservice/internal/entity"
 	"go-categories-microservice/internal/repository"
+	"luisz/core/entity"
 )
 
 type createCategoryUseCase struct {

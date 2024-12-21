@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"microservice-core/cmd/api/routes"
 	"microservice-core/config"
 
 	"github.com/gin-gonic/gin"
@@ -16,7 +17,7 @@ func main() {
 		})
 	})
 
-	CategoryRoutes(router)
+	routes.CategoryRoutes(router)
 
 	router.Run(fmt.Sprintf(":%d", config.API_PORT))
 }

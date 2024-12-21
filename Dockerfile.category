@@ -2,13 +2,14 @@ FROM golang:1.23
 
 WORKDIR /app
 
-COPY . .
+COPY ./core ../core
+COPY ./microservice-db .
 
 RUN go mod download
 RUN go mod tidy
 
 RUN go build -o main ./cmd/api/main.go
 
-EXPOSE 80
+EXPOSE 5000
 
 CMD [ "./main" ]

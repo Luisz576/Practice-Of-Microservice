@@ -1,7 +1,7 @@
-package main
+package routes
 
 import (
-	"microservice-core/cmd/api/controller"
+	"microservice-core/internal/controller"
 
 	"github.com/gin-gonic/gin"
 )

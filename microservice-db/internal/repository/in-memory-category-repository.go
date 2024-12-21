@@ -1,6 +1,6 @@
 package repository
 
-import "go-categories-microservice/internal/entity"
+import "luisz/core/entity"
 
 type inMemoryCategoryRepository struct {
 	db []*entity.Category

@@ -4,6 +4,13 @@ services:
   microservice-db:
    container_name: microservice-db
    image: test-microservice-db
+   mem_limit: 1024m
+   ports:
+     - "5000:5000"
+
+  microservice-core:
+   container_name: microservice-core
+   image: test-microservice-core
    mem_limit: 2048m
    ports:
      - "8000:80"

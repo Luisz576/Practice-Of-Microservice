@@ -4,6 +4,9 @@ go 1.23.4
 
 require github.com/gin-gonic/gin v1.10.0
 
+require luisz/core v0.0.0
+replace luisz/core => ../core
+
 require (
 	github.com/bytedance/sonic v1.11.6 // indirect
 	github.com/bytedance/sonic/loader v0.1.1 // indirect
